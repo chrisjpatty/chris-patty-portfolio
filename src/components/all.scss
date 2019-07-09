@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Poppins:400,600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
 html {
  line-height: 1.15;
  -webkit-text-size-adjust: 100%;
 }body {
  margin: 0;
+ font-family: 'Open Sans', sans-serif;
 }main {
  display: block;
 }h1 {
@@ -110,4 +116,11 @@ select {
  display: none;
 }[hidden] {
  display: none;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
